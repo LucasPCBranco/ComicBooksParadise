@@ -1,0 +1,129 @@
+.container{
+background-color:#f9f9f9;
+}
+
+
+body{
+    position: relative;
+    height: 100%;
+}
+#header{
+background-color:9999FF;
+padding-left:180px;
+}
+
+
+
+.col-sm-3{
+text-align:center;
+
+border-collapse:collapse;
+
+}
+
+#parte1{
+padding-top:50px;
+height:100%;
+background: radial-gradient(#2E4272, #061539);
+
+}
+
+#parte2 {
+padding-top:50px;
+height:100%;
+background: radial-gradient(#980D11, #6F0003);
+}
+
+#HQs{
+height: 50%;
+padding: 5%;
+display:none;
+}
+
+#ProdutosMarvel{
+    
+    margin-top: 5%;
+}
+#logoMarvel{
+    text-align: center;
+    padding: 5%;
+}
+
+.panel-heading,.panel-footer{
+    text-align: center;
+    
+}
+#Login, #Cadastro{
+  background: radial-gradient(#536B93, #5B80C0);
+	height: 45%;
+	width: 45%;
+	/*margin: 25%;*/
+	position: relative;
+	margin: auto;
+	
+	
+  }
+  
+  
+
+
+  #logo{
+	text-align:center;
+  }
+  
+#Contato{
+  padding-top: 50px;
+   height: 65%;
+    width: 20%;;
+  background: radial-gradient(#980D11, #6F0003);
+}
+
+
+#myCarousel{
+  margin-top: 5%;
+}
+
+#myCarousel2{
+    margin-bottom: 5%;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 35%;
+      margin: auto;
+  }
+
+
+  
+  .produtos{
+	width: 20%;
+	height: 40%;
+	margin: 10px 30px 10px 30px;
+	float: left;
+	/*background: black;*/
+  }
+  
+  .capas{
+      width: 25%;
+      height: 80%;
+      float: left;
+      margin: 5% 0% 5% 5%;
+  }
+
+  
+  .input-group {
+	margin-top: 10%;
+  }
+  #btn-login, #btn-cadastro{
+	margin-top:10%;
+	margin-bottom:5%;
+  text-align: center;
+
+  }
+  
+  #btn-cadastro{
+      margin-top: 4%;
+  }
+  
+  #Cadastro  .input-group{
+      margin-top: 4%;
+  }

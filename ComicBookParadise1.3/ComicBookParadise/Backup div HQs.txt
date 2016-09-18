@@ -1,0 +1,167 @@
+Esse backup se refere à div HQs, que deveria mudar seu conteúdo a cada clique.
+Esta tentativa cria uma div para cada caso. Ela foi retirada em função da
+alternativa de reescrever tudo com AJAx.
+
+
+
+
+
+
+
+ <script> $(document).ready(function () {
+                    $("#ToggleMarvel").click(function () {
+//                    $("#HQsNacionais").hide();
+//                        $("#Mangas").hide();  
+//                        $("#HQsDC").hide();
+                    $("#HQsMarvel").show();
+
+                    });
+
+                    
+
+                });
+            </script>
+            <!--script> $(document).ready(function () {
+                    $("#ToggleDC").click(function () {
+                        
+                        $("#HQsMarvel").hide();
+                        $("#HQsNacionais").hide();
+                        $("#Mangas").hide(); //Tenta inverter.. Primeiro hide, depois o show
+                        $("#HQsDC").show(); //Espalhar? Sim, colocar hide nos outros também, ver se dá esse ruim todo;. Não custa tentar. I guess.
+                    });
+
+
+
+                });
+            </script>
+            <script> $(document).ready(function () {
+                    $("#ToggleHue").click(function () {
+                        
+                        $("#Mangas").hide();  
+                        $("#HQsDC").hide();
+                    $("#HQsMarvel").hide();
+                    $("#HQsNacionais").show();
+                    });
+
+
+
+                });
+            </script>
+            <script> $(document).ready(function () {
+                    $("#ToggleManga").click(function () {
+                        $("#HQsDC").hide();
+                    $("#HQsMarvel").hide();
+                    $("#HQsNacionais").hide();
+                        $("#Mangas").show();
+
+                    });
+
+
+
+                });
+            </script-->
+
+
+        </div>
+
+        <div class="container-fluid" id="HQsMarvel" >
+            <!--?php
+            require 'conn.php';
+            $produto = mysql_query("SELECT * FROM tbProdutos");
+
+            $prod = mysql_fetch_array($produto);
+            ?-->
+            <a href = "#parte2" id = "voltar"><img src = "IMG\Voltar.png" /></a>
+            
+            <div class = "capas"><img src="IMG\KatnissEverpool.jpg"</div>
+<!--            <div class = "capas"><?php echo 'img src="' . $prod["kappa"] . '"' ?></div>
+            <div class = "capas"><?php echo '<img src="' . $prod["kappa"] . '"/>' ?></div>-->
+            <div class="capas"><h1><a href="marvel.php">VER MAIS</a></h1></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#voltar").click(function () {
+                                    $("#HQs").hide();
+                                });
+
+
+                            });
+                        </script>
+
+
+                    </div>
+        <!--div class="container-fluid" id="HQsDC" >
+            //<?php
+//            require 'conn.php';
+//            $produto = mysql_query("SELECT * FROM tbProdutos");
+//
+//            $prod = mysql_fetch_array($produto);
+//            ?>
+            <a href = "#parte2" id = "voltar"><img src = "IMG\Voltar.png" /></a>
+            
+            <div class = "capas"><?php echo '<img src="' . $prod["kappa"] . '" />' ?></div>
+<!--            <div class = "capas"><?php echo 'img src="' . $prod["kappa"] . '"' ?></div>
+            <div class = "capas"><?php echo '<img src="' . $prod["kappa"] . '"/>' ?></div>-->
+ <!--           <div class="capas"><h1><a href="marvel.html">VER MAIS</a></h1></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#voltar").click(function () {
+                                    $("#HQs").hide();
+                                });
+
+
+                            });
+                        </script>
+
+
+                    </div>
+<div class="container-fluid" id="HQsNacionais" >
+            <!--?php
+            require 'conn.php';
+            $produto = mysql_query("SELECT * FROM tbProdutos");
+
+            $prod = mysql_fetch_array($produto);
+            ?>
+            <a href = "#parte2" id = "voltar"><img src = "IMG\Voltar.png" /></a>
+            
+            <div class = "capas"><img src="IMG\SuchHQ.jpg"></div>
+<!--            <div class = "capas"><?php echo 'img src="' . $prod["kappa"] . '"' ?></div>
+            <div class = "capas"><?php echo '<img src="' . $prod["kappa"] . '"/>' ?></div>>
+            <div class="capas"><h1><a href="marvel.html">VER MAIS</a></h1></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#voltar").click(function () {
+                                    $("#HQs").hide();
+                                });
+
+
+                            });
+                        </script>
+
+
+                    </div>
+        <div class="container-fluid" id="Mangas" >
+            <!--?php
+            require 'conn.php';
+            $produto = mysql_query("SELECT * FROM tbProdutos");
+
+            $prod = mysql_fetch_array($produto);
+            ?>
+            <a href = "#parte2" id = "voltar"><img src = "IMG\Voltar.png" /></a>
+            
+            <div class = "capas"><img src="IMG\Eumesmo.jpg"/></div>
+<!--            <div class = "capas"><?php echo 'img src="' . $prod["kappa"] . '"' ?></div>
+            <div class = "capas"><?php echo '<img src="' . $prod["kappa"] . '"/>' ?></div>>
+            <div class="capas"><h1><a href="marvel.html">VER MAIS</a></h1></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#voltar").click(function () {
+                                    $("#HQs").hide();
+                                });
+
+
+                            });
+                        </script-->
